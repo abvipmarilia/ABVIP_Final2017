@@ -14,5 +14,11 @@ body{
 .divslider{
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background: url('../imgs/slash_it.png');
+	background: url(../imgs/slash_it.png);
+}
+.fundo
+{
+    background-color:"#ac322a";
+    min-height: 50vh;
+    min-width: 40vw;
 }

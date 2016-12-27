@@ -60,7 +60,52 @@
 
     <!-- Slider da Aplicação -->
     <div class="divslider">
-      slider
+        <div class="container">
+        <div class="col-xs-12">
+            <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderprincipal" data-slide-to="0"></li>
+                    <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                    <li data-target="#sliderprincipal" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="fundo text-center">
+                        <h2>Apresentação</h2>
+                            <p>
+                            Apresentação do site oficial da ABVIP.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+<div class="fundo text-center">
+                        <h2>Apresentação</h2>
+                            <p>
+                            Apresentação do site oficial da ABVIP.
+                            </p>
+                        </div>                    </div>
+                    <div class="item">
+<div class="fundo text-center">
+                        <h2>Apresentação</h2>
+                            <p>
+                            Apresentação do site oficial da ABVIP.
+                            </p>
+                        </div>                    </div>                
+                </div>
+                <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+                
+            </div>
+            </div>
+        </div>
+
+        
 
     </div>
     <!-- Fim Slider -->
