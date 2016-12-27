@@ -1,17 +1,29 @@
 *{
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Special Elite', cursive;
 	font-weight: 300;
 }
 
 body{
-	padding-top: 40px;
+	padding-top: 50px;
+}
+section{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-height: 100vh;
 }
 
+footer{
+	background: url(../imgs/slash_it.png);
+    color:#ccc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .navbar-brand{
 	font-weight: 700;
 }
 
 .divslider{
+    color:#ccc;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background: url(../imgs/slash_it.png);
@@ -21,4 +33,20 @@ body{
     background-color:"#ac322a";
     min-height: 50vh;
     min-width: 40vw;
+}
+
+.div-colorida{
+	background: url(../imgs/slash_it.png);
+    color:white;
+    
+}
+.servicos-item *{
+    text-align: justify;
+}
+.aviso{
+    padding: 15px;
+}
+
+section#contato{
+    min-height: 60vh;
 }
