@@ -1,5 +1,5 @@
 *{
-font-family: 'Special Elite', cursive;
+font-family: 'Cabin', sans-serif;
 	font-weight: 300;
 }
 
@@ -49,4 +49,14 @@ footer{
 
 section#contato{
     min-height: 60vh;
+}
+
+.conteudo_painel{
+    background: white;
+}
+.conteudo_painel_int{
+    padding: 12px;
+    border-radius: 8px;
+    border:1 solid #eee;
+   
 }

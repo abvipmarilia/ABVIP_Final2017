@@ -12,11 +12,11 @@
     <title><?=$titulo?></title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="css/bootstrap-lumen.min.css" rel="stylesheet">
     <link href="css/painel.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
 
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -40,15 +40,18 @@
 
    
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
+        <li><a href="#" title="Cestas Básicas"><i class="fa fa-shopping-basket fa-2x" aria-hidden="true" alt="Cestas Básicas"></i>
+            </a></li>
+        <li><a href="#" title="Relatórios"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true" alt="Relatórios"></i>
+</a></li>
+          <li><a href="#" title="Cadastros"><i class="fa fa-wpforms fa-2x" aria-hidden="true" alt="Cadastros"></i></a></li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-2x" aria-hidden="true"></i><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Minha conta</a></li>
+            <li><a href="#">Trocar Senha</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Efetuar Logoff</a></li>
           </ul>
         </li>
       </ul>
@@ -62,10 +65,123 @@
         <div class="container-fluid">
         <div class="row-fluid">
             <div class="col-sm-3">
-            Coluna 1
+
+                <!-- Inicio da Navegação lateral -->
+                <div class="panel panel-primary">
+                    <div id="colGroup1" role="tab" class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                            <a href="#colListGroup1" aria-controls="colListGroup1" aria-expanded="true" data-toggle="collapse">
+                                Cadastros
+                            </a>
+                        </h4>
+                    </div>
+                    <div role="tabpanel" class="panel-collapse collapse in" id="colListGroup1" aria-expanded="true">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Membros</a></li>
+                            <li class="list-group-item"><a href="#">Instituições</a></li>
+                            <li class="list-group-item"><a href="#">Regiões</a></li>
+                            <li class="list-group-item"><a href="#">Pastores</a></li>
+                            <li class="list-group-item"><a href="#">Atendimento</a></li>
+                            <li class="list-group-item"><a href="#">Em breve</a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer"></div>
+                </div>
+            <!-- Final da Navegação lateral -->
+                
+
+                <!-- Inicio da Navegação lateral -->
+                <div class="panel panel-primary">
+                    <div id="colGroup2" role="tab" class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                            <a href="#colListGroup2" aria-controls="colListGroup2" aria-expanded="true" data-toggle="collapse">
+                                Relatórios
+                            </a>
+                        </h4>
+                    </div>
+                    <div role="tabpanel" class="panel-collapse collapse in" id="colListGroup2" aria-expanded="true">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Usuários</a></li>
+                            <li class="list-group-item"><a href="#">Membros</a></li>
+                            <li class="list-group-item"><a href="#">Cestas Entregues</a></li>
+                            <li class="list-group-item"><a href="#">Histórico</a></li>
+                            <li class="list-group-item"><a href="#">Cadastrar Membros</a></li>
+                            <li class="list-group-item"><a href="#">Cadastrar Membros</a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer"></div>
+                </div>
+            <!-- Final da Navegação lateral -->
             </div>
-            <div class="col-sm-9 text-right">
-            Coluna 2
+            <div class="col-sm-9">
+                <div class="conteudo_painel">
+                    <div class="conteudo_painel_int">
+                       <div class="page-header">
+                        <ul class="nav nav-pills" role="tablist">
+                            <li class="active"><a href="#">Mensagens <span class="badge">10</span></a></li>
+                            <li class=""><a href="#">Usuários <span class="badge">10</span></a></li>
+                            <li class=""><a href="#">Avisos <span class="badge">10</span></a></li>
+                            <li class=""><a href="#">Aniversariantes <span class="badge">10</span></a></li>
+                        </ul>
+                        </div> 
+                        
+                        <div class="well well-sm">
+                        
+                            <h2>Seja bem vindo <strong>Usuário</strong></h2>
+                            <p>Utilize o menu lateral para realizar a navegação.</p>
+                            
+                        </div>
+                        
+                        <div class="page-header"><h3>Avisos:</h3></div>
+                        
+                        <div class="alert alert-success">
+                            <strong>Parabéns</strong>, você foi recomendado.
+                        </div>
+                        
+                        <div class="alert alert-warning">
+                            <strong>Atenção:</strong> Você tem até o dia XX/XX/XXXX para retirar sua cesta básica.
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h3>Minhas tarefas</h3>
+                                <ul>
+                                    <li><a href="#">Projeto 1</a></li>
+                                    <li><a href="#">Projeto 2</a></li>
+                                    <li><a href="#">Projeto 3</a></li>
+                                    <li><a href="#">Projeto 4</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary btn-block">Adicionar nova tarefa</a>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h3>Minhas tarefas</h3>
+                                <ul>
+                                    <li><a href="#">Projeto 1</a></li>
+                                    <li><a href="#">Projeto 2</a></li>
+                                    <li><a href="#">Projeto 3</a></li>
+                                    <li><a href="#">Projeto 4</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary btn-block">Adicionar nova tarefa</a>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h3>Minhas tarefas</h3>
+                                <ul>
+                                    <li><a href="#">Projeto 1</a></li>
+                                    <li><a href="#">Projeto 2</a></li>
+                                    <li><a href="#">Projeto 3</a></li>
+                                    <li><a href="#">Projeto 4</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary btn-block">Adicionar nova tarefa</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             </div>
       </div>
